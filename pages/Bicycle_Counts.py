@@ -87,5 +87,7 @@ st.pydeck_chart(pdk.Deck(
     }
 ))
 
+st.caption("Data from [Portland Open Data](https://data.portlandoregon.gov/dataset/bicycle-counts).")
+
 with st.popover("View Data"):
     st.write(data)
